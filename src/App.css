@@ -6,29 +6,53 @@
   height: 40vmin;
   pointer-events: none;
 }
+.top {
+  background-image: url(../src/bg2.jpg);
+  padding-top: 10em;
+  padding-bottom: 10em;
+}
+
+.top img{
+    width: 70%;
+    height: 70%;
+}
+
+
+.foot {
+  background-image: url(../src/foot5.jpg);
+  padding-top: none;
+  padding-bottom: 25em;
+}
+
+.foot h1{
+  /* color: rgba(255, 0, 0, 0.829); */
+    padding-top: 1em;
+    font-size: 400%;
+}
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .saber {
+    animation: saber-spin infinite 10s linear;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.neon {
+  color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px red,
+    0 0 80px red,
+    0 0 90px red,
+    0 0 100px red,
+    0 0 150px red,
+    0 0 180px red,
+    0 0 200px red,
+    0 0 250px red;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+@keyframes saber-spin {
   from {
     transform: rotate(0deg);
   }
@@ -36,3 +60,18 @@
     transform: rotate(360deg);
   }
 }
+
+.saberimage img{
+  margin-top: 2em;
+  height:10%;
+  width: 10%;
+}
+
+.arrow{
+  font-size: 70px;
+  transition: transform ease-in-out 1000ms;
+}
+
+.arrow:hover{
+  transform: translate(0, 10vh);
+  }

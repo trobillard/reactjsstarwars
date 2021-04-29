@@ -3,9 +3,9 @@ import './App.css';
 import Header from './components/layout/Header/Header';
 import Footer from './components/layout/Footer/Footer';
 import Nav from './components/layout/Nav/Nav';
-import MyProfil from './components/myProfil/myProfil';
+import Homepage from './components/homepage/homepage';
 import ShoppingList from './components/shoppingList/shoppingList';
-import Mylink from './components/Link/link';
+import Spe from './components/spe/spe';
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -23,11 +23,11 @@ function App() {
           <Route path="/myList">
             <ShoppingList />
           </Route>
-          <Route path="/myProfil">
-            <MyProfil />
+          <Route path="/homepage">
+            <Homepage />
           </Route>
-          <Route path="/link">
-            <Mylink />
+          <Route path="/spe">
+            <Spe />
           </Route>
           <Route path="/">
             <ShoppingList />
