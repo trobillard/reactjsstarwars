@@ -5,9 +5,7 @@ function Header() {
        <header className="top text-center">
            <section className="container">
                <img src={title} alt="logo"/>
-               <div className="arrow">
-               <p className="neon"><ion-icon name="chevron-down-outline"></ion-icon></p>
-               </div>
+               <p className="neon arrow"><ion-icon name="chevron-down-outline"></ion-icon></p>
            </section>
        </header>
     );

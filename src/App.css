@@ -62,16 +62,26 @@
 }
 
 .saberimage img{
-  margin-top: 2em;
+  margin-top: 6em;
   height:10%;
   width: 10%;
 }
 
-.arrow{
+.arrow {
   font-size: 70px;
-  transition: transform ease-in-out 1000ms;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
 }
 
-.arrow:hover{
-  transform: translate(0, 10vh);
-  }
+.arrow {
+  animation-name: arrow;
+  animation-timing-function: linear;
+}
+@keyframes arrow {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-50px); }
+  100% { transform: translateY(0); }
+}
+
+  

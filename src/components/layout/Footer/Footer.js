@@ -1,4 +1,4 @@
-import saber from './lightsaber.png'
+import saber from './logo.svg'
 
 function Footer() {
     return(
