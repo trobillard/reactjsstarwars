@@ -49,6 +49,9 @@ componentDidMount() {
                     <div className="row">
                     {this.state.articles}
                     </div>
+                    <div className="spotify">
+                    <iframe src="https://open.spotify.com/embed/playlist/34HMPdg2ywHWz0EmCE64yo" width="1300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
                 </section>
             );
                 

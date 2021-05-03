@@ -27,7 +27,7 @@
 .foot h1{
   /* color: rgba(255, 0, 0, 0.829); */
     padding-top: 1em;
-    font-size: 400%;
+    /* font-size: 400%; */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -84,4 +84,7 @@
   100% { transform: translateY(0); }
 }
 
+.spotify{
+ margin-top: 2em;
+}
   
