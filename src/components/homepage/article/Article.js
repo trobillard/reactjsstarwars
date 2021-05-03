@@ -2,7 +2,7 @@
 
 function Article (props){
     return(
-        <div className="col-6 col-sm-4 col-lg-3">
+        <div className="col-6 col-sm-4 col-lg-6">
         <article className="bg-dark text-center text-white py-5 my-2">
             <span>{props.article}</span>
         </article>
