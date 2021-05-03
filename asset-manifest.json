@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/reactjsstarwars/static/css/main.9cbc2548.chunk.css",
+    "main.js": "/reactjsstarwars/static/js/main.a69c5a76.chunk.js",
+    "main.js.map": "/reactjsstarwars/static/js/main.a69c5a76.chunk.js.map",
+    "runtime-main.js": "/reactjsstarwars/static/js/runtime-main.e6ad82d5.js",
+    "runtime-main.js.map": "/reactjsstarwars/static/js/runtime-main.e6ad82d5.js.map",
+    "static/js/2.8c24e285.chunk.js": "/reactjsstarwars/static/js/2.8c24e285.chunk.js",
+    "static/js/2.8c24e285.chunk.js.map": "/reactjsstarwars/static/js/2.8c24e285.chunk.js.map",
+    "static/js/3.c134b652.chunk.js": "/reactjsstarwars/static/js/3.c134b652.chunk.js",
+    "static/js/3.c134b652.chunk.js.map": "/reactjsstarwars/static/js/3.c134b652.chunk.js.map",
+    "index.html": "/reactjsstarwars/index.html",
+    "static/css/main.9cbc2548.chunk.css.map": "/reactjsstarwars/static/css/main.9cbc2548.chunk.css.map",
+    "static/js/2.8c24e285.chunk.js.LICENSE.txt": "/reactjsstarwars/static/js/2.8c24e285.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/reactjsstarwars/static/media/foot5.ad253f73.jpg",
+    "static/media/logo.6ce24c58.svg": "/reactjsstarwars/static/media/logo.6ce24c58.svg",
+    "static/media/star-wars.ab66a3e4.png": "/reactjsstarwars/static/media/star-wars.ab66a3e4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e6ad82d5.js",
+    "static/js/2.8c24e285.chunk.js",
+    "static/css/main.9cbc2548.chunk.css",
+    "static/js/main.a69c5a76.chunk.js"
+  ]
+}
